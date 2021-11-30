@@ -10,6 +10,8 @@ namespace ShelbyCompany
     {
         static void Main(string[] args)
         {
+            Environment.Init();
+
         }
     }
 }
