@@ -11,6 +11,7 @@ namespace ShelbyCompany.Data
     {
         public DbSet<Models.Category> Categories { get; set; }
         public DbSet<Models.Product> Products { get; set; }
+        public DbSet<Models.Users> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
