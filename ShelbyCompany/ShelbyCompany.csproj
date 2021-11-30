@@ -162,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\ShelbyCompanyContext.cs" />
+    <Compile Include="Login\Login.cs" />
     <Compile Include="Environment.cs" />
     <Compile Include="Migrations\20211130203913_mig1.cs" />
     <Compile Include="Migrations\20211130203913_mig1.designer.cs">
