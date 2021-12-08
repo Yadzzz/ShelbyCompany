@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelbyCompany", "ShelbyCompany\ShelbyCompany.csproj", "{A460F0B0-2769-487E-A651-18DC04B7ED7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelbyCompanyTests", "ShelbyCompanyTests\ShelbyCompanyTests.csproj", "{AA4565D5-814E-48F6-B6C4-C8CBA75D8D9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A460F0B0-2769-487E-A651-18DC04B7ED7E} = {A460F0B0-2769-487E-A651-18DC04B7ED7E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{A460F0B0-2769-487E-A651-18DC04B7ED7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A460F0B0-2769-487E-A651-18DC04B7ED7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A460F0B0-2769-487E-A651-18DC04B7ED7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4565D5-814E-48F6-B6C4-C8CBA75D8D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4565D5-814E-48F6-B6C4-C8CBA75D8D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4565D5-814E-48F6-B6C4-C8CBA75D8D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4565D5-814E-48F6-B6C4-C8CBA75D8D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

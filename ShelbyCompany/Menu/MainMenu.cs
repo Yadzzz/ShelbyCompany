@@ -60,6 +60,11 @@ namespace ShelbyCompany.Menu
             }
         }
 
+        public bool IsUserLoggedIn()
+        {
+            return Environment.UserLogin.LoggedIn ? true : false;
+        }
+
 
         public void DisplayCategoryItems(int categoryId)
         {
